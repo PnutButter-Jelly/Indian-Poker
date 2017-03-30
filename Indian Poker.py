@@ -26,7 +26,7 @@ def School(Game):
     return 0
 
 def Flash():
-    system('clear')
+    system('cls')
     return
 
 def Status(Game):
@@ -184,7 +184,7 @@ def Comthink(card,Game):
         Comthink_3 = 0
     elif 5 < Game[4] <= 10:
         Comthink_3 = 1
-    elif 11 < Game[4] <= 15:
+    elif 10 < Game[4] <= 15:
         Comthink_3 = 3
     elif 15 < Game[4] <= 20:
         Comthink_3 = 5
@@ -195,7 +195,7 @@ def Comthink(card,Game):
     elif 30 < Game[4]:
         Comthink_3 = 0
     else:
-        Comthink_3 = 3
+        print("error_think_3")
 
     if Game[1] <= 5:
         Comthink_4 = 0
